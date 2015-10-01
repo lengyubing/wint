@@ -58,8 +58,8 @@ public class DispatcherInitializor {
 			serviceDefinition.overWriteServicesFrom(userDefineServiceDefinition);
 		}
 		Configuration configuration = new Configuration();
-		configuration.setProperties(properties);
 		configuration.setServiceDefinition(serviceDefinition);
+		configuration.setProperties(properties);
 		return configuration;
 	}
 	
