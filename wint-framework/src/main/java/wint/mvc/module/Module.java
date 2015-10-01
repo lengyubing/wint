@@ -10,6 +10,7 @@ public interface Module {
 	String getType();
 
 	/**
+	 * doAction
 	 * method start with do.., like doXyz ect.
 	 * @return
 	 */
